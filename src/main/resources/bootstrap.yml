@@ -10,8 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/GabrielSoto315/Bank-Config-Data.git
-          username: GabrielSoto315
-          password: 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
+        
   security:
     user:
       name: root
