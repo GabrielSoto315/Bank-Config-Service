@@ -1,0 +1,18 @@
+server:
+  port: 18888
+
+
+spring:
+  application:
+    name: Bank-Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/GabrielSoto315/Bank-Config-Data.git
+          username: GabrielSoto315
+          password: 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
+  security:
+    user:
+      name: root
+      password: s3cr3t
